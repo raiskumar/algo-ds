@@ -3,11 +3,17 @@
 //
 //               100
 //             /    \
-//           50     200
+//           101    102
 
-package bst
+package tree
 
 import "fmt"
+
+// Node represents a single node in BST
+type Node struct {
+	val         int
+	left, right *Node
+}
 
 // Holds the reference to root node of BST
 var root *Node
