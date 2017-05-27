@@ -1,4 +1,4 @@
-package bst
+package tree
 
 func Abs(x int) int {
 	if x < 0 {

@@ -1,4 +1,4 @@
-package bst
+package tree
 
 //Approach 1  (Inefficient)
 // Calculate the height of left subtree and right subtee for each node

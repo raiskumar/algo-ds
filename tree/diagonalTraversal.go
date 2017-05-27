@@ -9,7 +9,7 @@
 //                  2,5
 //                   4
 
-package bst
+package tree
 
 import "fmt"
 

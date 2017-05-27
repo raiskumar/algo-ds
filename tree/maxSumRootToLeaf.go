@@ -1,4 +1,4 @@
-package bst
+package tree
 
 // Calcualtes maximum sum from root node to any leaf node in Binary Tree or BST
 // Time Complexity : O(N) or takes liner time

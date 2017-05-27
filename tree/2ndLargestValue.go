@@ -1,4 +1,4 @@
-package bst
+package tree
 
 //Find 2nd largest node of the BST
 //Takes root of the tree as the input
