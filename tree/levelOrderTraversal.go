@@ -1,14 +1,17 @@
 package tree
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/raiskumar/algo-ds/common"
+)
 
 // Perform Level Order traversal and print content on console
 // Uses queue to push Tree nodes
-func levelOrder(root *Node) {
+func levelOrderTraversal(root *Node) {
 	if root == nil {
 		return
 	}
-	queue := New()
+	queue := common.New()
 	queue.enqueue(root)
 
 	for queue.isEmpty() != true {

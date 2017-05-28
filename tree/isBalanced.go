@@ -1,5 +1,7 @@
 package tree
 
+import "github.com/raiskumar/algo-ds/common"
+
 //Approach 1  (Inefficient)
 // Calculate the height of left subtree and right subtee for each node
 // For any node if the difference in height of left and right subtree is > 1; tree is UNBALANCED
@@ -17,10 +19,10 @@ func isHeightBalanced(root *Node, isBalanced *bool) int {
 	heightLeft := isHeightBalanced(root.left, isBalanced)
 	heightRight := isHeightBalanced(root.right, isBalanced)
 
-	if Abs(heightLeft-heightRight) > 1 {
+	if common.Abs(heightLeft-heightRight) > 1 {
 		v := false
 		isBalanced = &(v)
 	}
 
-	return Max(heightLeft, heightRight) + 1
+	return common.Max(heightLeft, heightRight) + 1
 }

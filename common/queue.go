@@ -1,4 +1,4 @@
-package tree
+package common
 
 type queue struct {
 	values []*Node

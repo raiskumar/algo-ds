@@ -32,3 +32,9 @@ func TestDiagonalTraversal(t *testing.T) {
 	root := createTree(elements)
 	diagonalTraversal(root)
 }
+
+func TestLevelOrderTraversal(t *testing.T) {
+	var elements = []int{100, 50, 200, 150, 140, 160, 170, 130, 120}
+	root := createTree(elements)
+	levelOrderTraversal(root)
+}
