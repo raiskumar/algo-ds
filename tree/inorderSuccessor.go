@@ -2,20 +2,18 @@ package tree
 
 import "fmt"
 
-func getInorderSuccessor(root *Node, target int) *Node {
-	node := findNode(root, target)
-	//return successor(root, node)
-	result := node
-	successorV2(root, node, result)
-	return result
-	//return successorV3(root, node)
-}
+//Approache1
+// Do an inorder walk and getting all elements in the array. Then find the node in the array in one scan and return the next node. 
+// Doesn't use BST Property
+
+// Use BST search idiom
 
 func successor(root, target *Node) *Node {
 	if target == nil || root == nil {
 		return nil
 	}
 
+	// If target node has right subtree
 	if target.right != nil {
 		return getMinNode(target.right)
 	}
@@ -30,10 +28,17 @@ func successor(root, target *Node) *Node {
 		} else {
 			break
 		}
-
 	}
 	return result
 }
+
+func getInorderSuccessor(root *Node, target int) *Node {
+	node := findNode(root, target)
+	result := node
+	successorV2(root, node, result)
+	return result
+}
+
 
 func successorV2(root, target, result *Node) {
 	if target == nil || root == nil {
@@ -50,6 +55,7 @@ func successorV2(root, target, result *Node) {
 	return
 }
 
+//Iterative version
 func successorV3(root, target *Node) *Node {
 	if target == nil || root == nil {
 		return nil
