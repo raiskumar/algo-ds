@@ -2,7 +2,6 @@ package tree
 
 import (
 	"fmt"
-	"github.com/raiskumar/algo-ds/common"
 )
 
 // Perform Level Order traversal and print content on console
@@ -11,7 +10,7 @@ func levelOrderTraversal(root *Node) {
 	if root == nil {
 		return
 	}
-	queue := common.New()
+	queue := New()
 	queue.enqueue(root)
 
 	for queue.isEmpty() != true {

@@ -1,5 +1,5 @@
 //BST Property
-//Every node on the right subtree has to be larger than the current node 
+//Every node on the right subtree has to be larger than the current node
 // and every node on the left subtree has to be smaller than the current node
 package tree
 
@@ -20,7 +20,7 @@ func isBst(root *Node) bool {
 	if root.left != nil && findMaxNode(root.left).val > root.val { // findMax is implemented in bst.go
 		return false
 	}
-	if root.right != nil && findMinNode(root.right).val < root.val {
+	if root.right != nil && getMinNode(root.right).val < root.val {
 		return false
 	}
 

@@ -1,6 +1,3 @@
-//How to Test : http://blog.alexellis.io/golang-writing-unit-tests/
-// Go to the package directory and run below command
-// $go test
 package tree
 
 import (

@@ -1,4 +1,4 @@
-package bst
+package tree
 
 // Node represents a single node in BST
 type Node struct {
