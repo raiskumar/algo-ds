@@ -19,6 +19,7 @@ func getFloorAndCeil(root *Node, val int) (int, int) {
 	return floor, ceil
 }
 
+//update current node to ceil if visiting left subtree and current node to floor if visiting right subtree
 func floorAndCeil(root *Node, val int, floor, ceil *int) {
 	if root == nil {
 		return
