@@ -46,3 +46,11 @@ func TestKthLargestElement(t *testing.T) {
 	findKthLargestElement(root, &k, &response)
 	fmt.Printf(" kth largest = %d ", response)
 }
+
+func TestFloorAndCeil(t *testing.T) {
+	var elements = []int{100, 50, 200, 150, 140, 160, 170, 130, 120}
+	root := createTree(elements)
+
+	floor, ceil := getFloorAndCeil(root, 110)
+	fmt.Println(floor, " <- floor ceil -> ", ceil)
+}

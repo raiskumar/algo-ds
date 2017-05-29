@@ -7,7 +7,7 @@ import "fmt"
 // Generate Bottom view of the Binary tree
 // Uses map to store map of relative position
 // root is mapped to value 0; and then left node gets -1 and right node gets +1
-// For every node, it's left and right children are given relative position
+// For every node, it's left and right children are given relative position 
 func bottomView(root *Node) {
 	if root == nil {
 		return
