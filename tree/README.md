@@ -1,4 +1,4 @@
-# Binary Tree and Binary Search Tree Related Problems and their Implementation in Go Language
+## Binary Tree and Binary Search Tree Related Problems and their Implementation in Go Language.
 
 ## BST Problems
 
