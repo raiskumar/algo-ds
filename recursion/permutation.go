@@ -1,10 +1,8 @@
-// Given a String containing all DISTINCT characters, find all permuations of it
-// This approach will not work if there are duplicates in the String
-
 package recursion
 
 import "fmt"
 
+// Given a String containing all DISTINCT characters, find all permuations of it
 func permutation(input string) {
 	if len(input) < 2 {
 		return
@@ -13,6 +11,7 @@ func permutation(input string) {
 	generatePermutation(output, input)
 }
 
+// This approach will not work if there are duplicates in the String
 // Time Complexity : O(N.N!)
 //   Each permutation takes O(N); N is number of character in input string
 //   And there are N! permutations

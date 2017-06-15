@@ -2,7 +2,7 @@ package recursion
 
 import "fmt"
 
-//Generate All Binary Strings of length k
+// Problem Statement: Generate All possible Binary Strings of length k
 // If k = 1; Result= 0 , 1
 // If k = 2; Result= 00, 01, 10, 11
 func generateAllBinaryStrings(k int) {
