@@ -1,13 +1,12 @@
-// Given a binary pattern that contains ? as wildcard character. Find all combinates of string that can be formed
-// by replacing the wildchard character with either 0 or 1
-// input : "?1"
-// Output : "01", "11"
-
 package recursion
 
 import "fmt"
 import "strings"
 
+// Given a binary pattern that contains ? as wildcard character. Find all combinates of string that can be formed
+// by replacing the wildchard character with either 0 or 1
+// input : "?1"
+// Output : "01", "11"
 func allBinaryStrings(input string) {
 	if len(input) == 0 {
 		return

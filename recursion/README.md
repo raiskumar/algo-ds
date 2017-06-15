@@ -9,6 +9,7 @@ Using exhaustive search we consider all subsets irrespective of whether they sat
   Generate all subsets of a set
   Set {1,2,3}
   All Subset/Power Set = {}, {1}, {2}, {3}, {1,2}, {2,3}, {1,3}, {1,2,3}
+ - [Generate all binary Strings of length k](https://github.com/raiskumar/algo-ds/blob/master/recursion/generateAllBinaryStrings.go)
 
 ## Backtracking Problems
 - [Print all permutations of a String with all unique characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/permutation.go)

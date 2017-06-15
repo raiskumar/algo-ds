@@ -23,3 +23,7 @@ func TestPowerSet(t *testing.T) {
 	input := []int{1, 2, 3}
 	generateAllSubsets(input)
 }
+
+func TestGenerateAllBinaryStrings(t *testing.T) {
+	generateAllBinaryStrings(2)
+}
