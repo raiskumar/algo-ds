@@ -1,6 +1,7 @@
 package recursion
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -26,4 +27,15 @@ func TestPowerSet(t *testing.T) {
 
 func TestGenerateAllBinaryStrings(t *testing.T) {
 	generateAllBinaryStrings(2)
+}
+
+func TestPatterMatch(t *testing.T) {
+	//patternMatch("a*b.c*abcd", "abc")
+	fmt.Println(patternMatch("a*b.c", "abcc"))
+	//patternMatch("a*b.", "abc")
+}
+
+func TestPatterMatchV2(t *testing.T) {
+	fmt.Println(patternMatchV2("a*b.c", "aaaabdc"))
+	//fmt.Println(patternMatchV2("a*b.c", "bcc"))
 }

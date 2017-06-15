@@ -7,7 +7,8 @@ Using exhaustive search we consider all subsets irrespective of whether they sat
 - [Subset sum]
 - [Generate Power Set of a Set](https://github.com/raiskumar/algo-ds/blob/master/recursion/powerSet.go) : Given a set generate all possible subsets (aka powerset) of the set. If input is {1,2}; Output should be {}, {1}, {2}, {1,2}. 
  - [Generate all binary Strings of length k](https://github.com/raiskumar/algo-ds/blob/master/recursion/generateAllBinaryStrings.go) : Given a length; generate all possible binary strings. If k = 2; Possible binary strings would be "00", "01", "10", "11"
- - [String matching with one having wildcard characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcard.go) : Given two input string, first can have wildcards * and .; check if second string matches wildcard. Wildcard, * matches any of the 0 or more characters And . matches any single character
+ - [String matching between two string, first one has wildcard characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcard.go) : Given two input string, first can have wildcards * and .; check if second string matches wildcard. Wildcard, * matches any of the 0 or more characters And . matches any single character
+  - [String matching between two string, first one has wildcard characters. Variation of above](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcardV2.go) : Here * can match 0 or more occurances of character just before it
  
 
 ## Backtracking Problems
