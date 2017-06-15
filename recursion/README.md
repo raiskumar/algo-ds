@@ -7,8 +7,10 @@ Using exhaustive search we consider all subsets irrespective of whether they sat
 
 
 ## Problems: 
-- [Calculate Power; pow(a,b)](https://github.com/raiskumar/algo-ds/blob/master/recursion/power.go) : pow(2,4) = 16
-- [Find all binary strings that can be formed by replacing wildcard '?' with 0 and 1](https://github.com/raiskumar/algo-ds/blob/master/recursion/allCombinationsOfBinaryStrings.go) : Given a string which can have wildcard '?'. Find all possible strings which can be obtained by replacing ? with 0 and 1. 
+1. [Calculate Power; pow(a,b)](https://github.com/raiskumar/algo-ds/blob/master/recursion/power.go) 
+  * pow(2,4) = 16
+2. [Find all binary strings that can be formed by replacing wildcard '?' with 0 and 1](https://github.com/raiskumar/algo-ds/blob/master/recursion/allCombinationsOfBinaryStrings.go) 
+  *  Given a string which can have wildcard '?'. Find all possible strings which can be obtained by replacing ? with 0 and 1. 
 - [Generate all binary Strings of length k](https://github.com/raiskumar/algo-ds/blob/master/recursion/generateAllBinaryStrings.go) : Given a length; generate all possible binary strings. If k = 2; Possible binary strings would be "00", "01", "10", "11"
 - [Generate Power Set of a Set](https://github.com/raiskumar/algo-ds/blob/master/recursion/powerSet.go) : Given a set generate all possible subsets (aka powerset) of the set. If input is {1,2}; Output should be {}, {1}, {2}, {1,2}. 
 - [Print all permutations of a String with all unique characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/permutation.go)
@@ -17,5 +19,4 @@ Using exhaustive search we consider all subsets irrespective of whether they sat
 - [String matching between two string, first one has wildcard characters. Variation of above](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcardV2.go) : Here * can match 0 or more occurances of character just before it
 
 ## Testing
- [recursion_test.go](recursion_test.go) can be used to test any implementation.
-
+ [recursion_test.go](recursion_test.go) Tests implementation of above problems in Golang
