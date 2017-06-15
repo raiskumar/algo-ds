@@ -5,7 +5,6 @@ import "fmt"
 // Subset sum problem is to find subset of elements that are selected from a given set whose sum adds up to a given number K.
 // Assume that the set contains non-negative values.
 // It is assumed that the input set is unique (no duplicates are presented).
-
 func subsetSum(arr []int, sum int) {
 	var output []int
 	findSubArrays(arr, output, sum, 0)

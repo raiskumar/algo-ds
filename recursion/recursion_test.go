@@ -18,3 +18,8 @@ func TestSubsetSum(t *testing.T) {
 	a := []int{1, 2, 9, 3}
 	subsetSum(a, 12)
 }
+
+func TestPowerSet(t *testing.T) {
+	input := []int{1, 2, 3}
+	generateAllSubsets(input)
+}
