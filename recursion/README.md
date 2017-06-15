@@ -6,6 +6,7 @@
 Using exhaustive search we consider all subsets irrespective of whether they satisfy given constraints or not. 
 - [Subset sum]
 - [Generate Power Set of a Set](https://github.com/raiskumar/algo-ds/blob/master/recursion/powerSet.go)
+
   Generate all subsets of a set
   Set {1,2,3}
   All Subset/Power Set = {}, {1}, {2}, {3}, {1,2}, {2,3}, {1,3}, {1,2,3}
