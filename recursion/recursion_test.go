@@ -32,10 +32,15 @@ func TestGenerateAllBinaryStrings(t *testing.T) {
 func TestPatterMatch(t *testing.T) {
 	//patternMatch("a*b.c*abcd", "abc")
 	fmt.Println(patternMatch("a*b.c", "abcc"))
-	//patternMatch("a*b.", "abc")
+	fmt.Println(patternMatch("a*b.", "abc"))
 }
 
 func TestPatterMatchV2(t *testing.T) {
 	fmt.Println(patternMatchV2("a*b.c", "aaaabdc"))
-	//fmt.Println(patternMatchV2("a*b.c", "bcc"))
+	fmt.Println(patternMatchV2("a*b.c", "bcc"))
+}
+
+func TestPower(t *testing.T) {
+	fmt.Println(powerSlower(2, 5))
+	fmt.Println(power(2, 3))
 }
