@@ -16,7 +16,7 @@ Using exhaustive search we consider all subsets irrespective of whether they sat
 6. [Subset Sum problem](https://github.com/raiskumar/algo-ds/blob/master/recursion/subsetSum.go) : Given an array find all subsets (of the array) whose sum adds up to a given number K
 7. [String matching between two string, first one has wildcard characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcard.go) : Given two input string, first can have wildcards * and .; check if second string matches wildcard. Wildcard, * matches any of the 0 or more characters And . matches any single character
 8. [String matching between two string, first one has wildcard characters. Variation of above](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcardV2.go) : Here * can match 0 or more occurances of character just before it
-9. [Generate all subsets of size k] (https://github.com/raiskumar/algo-ds/blob/master/recursion/kLengthSubsets.go) : A k-subset is a subset of a set on n elements containing exactly k elements. For {1,2,3} , 2 length subsets are {1,2}, {2,3}, & {1,3}
+9. [Generate all subsets of size k](https://github.com/raiskumar/algo-ds/blob/master/recursion/kSubsets.go) : A k-subset is a subset of a set on n elements containing exactly k elements. For {1,2,3} , 2 length subsets are {1,2}, {2,3}, & {1,3}
 
 ## Testing
  [recursion_test.go](recursion_test.go) Tests implementation of above problems in Golang
