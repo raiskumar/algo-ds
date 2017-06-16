@@ -7,6 +7,7 @@ import "fmt"
 // Brute force solution : Generate power set as implemented in  recursion/powerSet.go and then filter out subsets of length k
 
 // Pascal Identity : (n,k) = (n-1,k)+(n-1, k-1)
+//                     nCk = n-1Ck + n-1Ck-1
 
 func kLengthSubset(set []int, k int) {
 	if k == 0 {
