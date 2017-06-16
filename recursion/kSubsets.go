@@ -4,7 +4,7 @@ import "fmt"
 
 // Generate k length subsets of set {1,2,...}
 // Mathematically expressed as nCk
-// Brute force solution : Generate power set of set using power.go and then filter out subsets of length k
+// Brute force solution : Generate power set as implemented in  recursion/powerSet.go and then filter out subsets of length k
 
 // Pascal Identity : (n,k) = (n-1,k)+(n-1, k-1)
 
