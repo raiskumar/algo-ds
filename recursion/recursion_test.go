@@ -44,3 +44,7 @@ func TestPower(t *testing.T) {
 	fmt.Println(powerSlower(2, 5))
 	fmt.Println(power(2, 3))
 }
+
+func TestKLengthSubset(t *testing.T) {
+	kLengthSubset([]int{1, 2, 3, 4}, 3)
+}
