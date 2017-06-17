@@ -10,7 +10,8 @@ Using exhaustive search we consider all subsets irrespective of whether they sat
 
 ## Problems: 
 1. [Calculate Power; pow(a,b)](https://github.com/raiskumar/algo-ds/blob/master/recursion/power.go):
-    \n power(2,4) = 16
+    ---
+    power(2,4) = 16
 
 2. [Find all binary strings that can be formed by replacing wildcard '?' with 0 and 1](https://github.com/raiskumar/algo-ds/blob/master/recursion/allCombinationsOfBinaryStrings.go) : Given a string which can have wildcard '?'. Find all possible strings which can be obtained by replacing ? with 0 and 1. 
 
