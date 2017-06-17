@@ -1,7 +1,8 @@
 ## Recursion Problems
-[Recursion fundamentals](http://geekrai.blogspot.in/2015/08/recursive-thinking.html)
+Here, is reference for learning [Recursion fundamentals](http://geekrai.blogspot.in/2015/08/recursive-thinking.html)
 
 ## Backtracking
+In backtracking algorithms you try to build a solution one step at a time. If at some step it becomes clear that the current path cannot lead to a solution you go back to the previous step (backtrack) and choose a different path. Basically once you exhaust all your options at a certain step you go back. 
 
 ## Exhaustive
 Using exhaustive search we consider all subsets irrespective of whether they satisfy given constraints or not. 
@@ -9,9 +10,13 @@ Using exhaustive search we consider all subsets irrespective of whether they sat
 
 ## Problems: 
 1. [Calculate Power; pow(a,b)](https://github.com/raiskumar/algo-ds/blob/master/recursion/power.go) : power(2,4) = 16
+
 2. [Find all binary strings that can be formed by replacing wildcard '?' with 0 and 1](https://github.com/raiskumar/algo-ds/blob/master/recursion/allCombinationsOfBinaryStrings.go) : Given a string which can have wildcard '?'. Find all possible strings which can be obtained by replacing ? with 0 and 1. 
+
 3. [Generate all binary Strings of length k](https://github.com/raiskumar/algo-ds/blob/master/recursion/generateAllBinaryStrings.go) : Given a length; generate all possible binary strings. If k = 2; Possible binary strings would be "00", "01", "10", "11"
+
 4. [Generate Power Set of a Set](https://github.com/raiskumar/algo-ds/blob/master/recursion/powerSet.go) : Given a set generate all possible subsets (aka powerset) of the set. If input is {1,2}; Output should be {}, {1}, {2}, {1,2}. 
+
 5. [Print all permutations of a String with all unique characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/permutation.go)
 6. [Subset Sum problem](https://github.com/raiskumar/algo-ds/blob/master/recursion/subsetSum.go) : Given an array find all subsets (of the array) whose sum adds up to a given number K. Assume that elements are NON-negative and there are no duplicates. 
 7. [String matching between two string, first one has wildcard characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcard.go) : Given two input string, first can have wildcards * and .; check if second string matches wildcard. Wildcard, * matches any of the 0 or more characters And . matches any single character
