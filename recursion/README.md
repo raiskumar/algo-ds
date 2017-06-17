@@ -2,10 +2,10 @@
 Here, is reference for learning [Recursion fundamentals](http://geekrai.blogspot.in/2015/08/recursive-thinking.html)
 
 ## Backtracking
-In backtracking algorithms, we try to build a solution one step at a time. If at some step it becomes clear that the current path cannot lead to a solution, go back to the previous step (backtrack) and choose a different path. Basically once we exhaust all options at a certain, we go back. 
+In backtracking recursive algorithms, we try to build a solution one step at a time. If at some step it becomes clear that the current path cannot lead to a solution, go back to the previous step (backtrack) and choose a different path. Basically once we exhaust all options at a certain, we go back. 
 
 ## Exhaustive
-Using exhaustive search we consider all subsets irrespective of whether they satisfy given constraints or not. 
+In exhaustive recursive algorithms, we consider all subsets irrespective of whether they satisfy given constraints or not. 
 At each step, make a choice and then unmake it and try other options until all options are fully exhausted. 
 
 
