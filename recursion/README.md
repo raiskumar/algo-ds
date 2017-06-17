@@ -2,10 +2,11 @@
 Here, is reference for learning [Recursion fundamentals](http://geekrai.blogspot.in/2015/08/recursive-thinking.html)
 
 ## Backtracking
-In backtracking algorithms you try to build a solution one step at a time. If at some step it becomes clear that the current path cannot lead to a solution you go back to the previous step (backtrack) and choose a different path. Basically once you exhaust all your options at a certain step you go back. 
+In backtracking algorithms, we try to build a solution one step at a time. If at some step it becomes clear that the current path cannot lead to a solution, go back to the previous step (backtrack) and choose a different path. Basically once we exhaust all options at a certain, we go back. 
 
 ## Exhaustive
 Using exhaustive search we consider all subsets irrespective of whether they satisfy given constraints or not. 
+At each step, make a choice and then unmake it and try other options until all options are fully exhausted. 
 
 
 ## Problems: 
@@ -23,16 +24,23 @@ Using exhaustive search we consider all subsets irrespective of whether they sat
 
 5. [Print all permutations of a String with all unique characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/permutation.go)
     <br/> Permutation of "ab" are "ab", "ba"
-6. [Subset Sum problem](https://github.com/raiskumar/algo-ds/blob/master/recursion/subsetSum.go) 
-   <br/> Given an array find all subsets (of the array) whose sum adds up to a given number K. Assume that elements are NON-negative and there are no duplicates. 
 
-7. [String matching between two string, first one has wildcard characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcard.go) 
+6. [Subset Sum problem](https://github.com/raiskumar/algo-ds/blob/master/recursion/subsetSum.go) 
+   <br/> Given a set find all subsets (of the array) whose sum adds up to a given number K. Assume that elements are NON-negative. 
+
+7. [Combination Sum problem](https://github.com/raiskumar/algo-ds/blob/master/recursion/combinationSum.go)
+    <br/> Given a set (without duplicates), find all unique combinations where the candiates add up to a fixed sum. Assume that elements are NON-negative. 
+    <br /> This is variation of problem #6 with only difference that the numbers in result can repeat.
+    <br /> Input = {2,3,6,7}, Sum = 7
+    <br /> Results : [2,2,3], [2,3,2], [3,2,2], [7]
+
+8. [String matching between two string, first one has wildcard characters](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcard.go) 
    <br/> Given two input string, first can have wildcards * and .; check if second string matches wildcard. Wildcard, * matches any of the 0 or more characters And . matches any single character
 
-8. [String matching between two string, first one has wildcard characters. Variation of above](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcardV2.go) 
+9. [String matching between two string, first one has wildcard characters. Variation of above](https://github.com/raiskumar/algo-ds/blob/master/recursion/stringMatchWithOneHavingWildcardV2.go) 
    <br/> Here * can match 0 or more occurances of character just before it
 
-9. [Generate all subsets of size k](https://github.com/raiskumar/algo-ds/blob/master/recursion/kSubsets.go)
+10. [Generate all subsets of size k](https://github.com/raiskumar/algo-ds/blob/master/recursion/kSubsets.go)
    <br/>  A k-subset is a subset of a set on n elements containing exactly k elements. For {1,2,3} , 2 length subsets are {1,2}, {2,3}, & {1,3}
 
 ## Testing

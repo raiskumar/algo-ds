@@ -48,3 +48,7 @@ func TestPower(t *testing.T) {
 func TestKLengthSubset(t *testing.T) {
 	kLengthSubset([]int{1, 2, 3, 4}, 3)
 }
+
+func TestCombinationSum(t *testing.T) {
+	combinationSum([]int{2, 3, 6, 7}, 7)
+}
