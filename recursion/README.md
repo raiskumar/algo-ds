@@ -1,5 +1,6 @@
 ## Recursion
 Recursion is another approach to solve problems which require repetition. Problem is solved by reducing it to a smaller problem of the same kind. This process is continued until we reach to a very small problem (base case) which can be solved directly. Base condition stops the further method call. 
+
 Here, is reference for learning [Recursion fundamentals](http://geekrai.blogspot.in/2015/08/recursive-thinking.html)
 
 ## Backtracking
