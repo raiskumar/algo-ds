@@ -2,7 +2,8 @@ package recursion
 
 import "fmt"
 
-// Find all combinations which will result in sum
+// Find all combinations from the input array which will result in sum
+// Result can have duplicates
 func combinationSum(input []int, sum int) {
 	if sum <= 0 {
 		return

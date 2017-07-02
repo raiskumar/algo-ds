@@ -3,10 +3,11 @@ package recursion
 import "fmt"
 import "strings"
 
-// Given a binary pattern that contains ? as wildcard character. Find all combinates of string that can be formed
-// by replacing the wildchard character with either 0 or 1
+// Given a binary pattern that contains ? as wildcard character. Find all combinations of string that can be formed
+// by replacing the wildchard character with 0 and 1
 // input : "?1"
 // Output : "01", "11"
+// If number of wildcards are 3 then..results set would have 2*2*2 results.
 func allBinaryStrings(input string) {
 	if len(input) == 0 {
 		return
@@ -21,7 +22,7 @@ func allBinaryStrings(input string) {
 // It will be done in DFS manner
 func recurse(input string, index int) {
 	if index >= len(input) {
-		if !strings.Contains(input, "?") {
+		if !strings.Contains(input, "?") { // print only when all wildcards are replaced
 			fmt.Println(input)
 		}
 		return
