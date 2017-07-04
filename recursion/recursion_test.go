@@ -52,3 +52,14 @@ func TestKLengthSubset(t *testing.T) {
 func TestCombinationSum(t *testing.T) {
 	combinationSum([]int{2, 3, 6, 7}, 7)
 }
+
+func TestRatInMaze(t *testing.T) {
+	maze := [][]int{
+		{1, 1, 1, 0},
+		{0, 1, 0, 0},
+		{0, 1, 1, 1},
+		{0, 0, 1, 1},
+	}
+	solution := ratInMaze(maze)
+	fmt.Print("Solution Maze= %d", solution)
+}
