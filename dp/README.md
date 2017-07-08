@@ -1,7 +1,7 @@
 ## Problems related with Dynamic Programming (DP)
 DP is a general technique for solving optimization, search, and computing problmes that can be decomposed into subproblems. 
 
-#Overalpping Subproblem
+### Overalpping Subproblem
 A problem has overalpping subproblems if finding its solution involves solving the same subproblem multiple times. 
 
 As an example, let's look at fibonacci sequence. 
@@ -22,11 +22,11 @@ Recursive implementation :
 
     You can clearly note that, fibonacci(k-2) is getting evaluated more than once. 
 
- # To get rid of above problem, a technique known as Memoization is used
+ ### To get rid of above problem, a technique known as Memoization is used
 Memoization ensures that a function doesn't run for the same inputs more than once by keeping a record of the results for given inputs (usually in a dictionary).
 Memoization is a common strategy for dynamic programming problems, which are problems where the solution is composed of solutions to the same problem with smaller inputs (as with the fibonacci problem, above). 
 
-# Another approach is going Bottom up
+### Another approach is going Bottom up
 Going bottom-up is a common strategy for dynamic programming problems, which are problems where the solution is composed of solutions to the same problem with smaller inputs (as with the fibonacci problem, above). 
 
 ## Problems: 
