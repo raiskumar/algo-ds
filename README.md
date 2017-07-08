@@ -1,2 +1,1 @@
-# algo-ds
-### Algorithm and Datastrcture problems and their implementation in Go lang. 
+# Algorithm & Data Structure related problems and their implementation in GoLang
