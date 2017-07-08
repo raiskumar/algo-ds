@@ -29,7 +29,7 @@ func fibonacciMemoization(n int) int {
 	if n == 0 || n == 1 {
 		return n
 	}
-	result := make([]int, n+1)
+	result := make([]int, n)
 	result[0] = 0
 	result[1] = 1
 
