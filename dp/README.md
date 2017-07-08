@@ -5,7 +5,6 @@ DP is a general technique for solving optimization, search, and computing problm
 A problem has overalpping subproblems if finding its solution involves solving the same subproblem multiple times. 
 
 As an example, let's look at fibonacci sequence. 
-
 Recursive implementation :
 
  ```febonacci(n) {
@@ -35,7 +34,8 @@ Memoization is a common strategy for dynamic programming problems, which are pro
 Going bottom-up is a common strategy for dynamic programming problems, which are problems where the solution is composed of solutions to the same problem with smaller inputs (as with the fibonacci problem, above). 
 
 ## Problems: 
-1. [Fibonacci Sequence](https://github.com/raiskumar/algo-ds/blob/master/dp/fibonacci.go)
+1. [Generate nth Fibonacci number](https://github.com/raiskumar/algo-ds/blob/master/dp/fibonacci.go)
+<br /> Sequence = 0, 1, 1, 2, 3, 5 
 
 ## Testing
  [recursion_test.go](dp_test.go) Dynamic Programming implementation of above problems in Golang
