@@ -70,7 +70,7 @@ At each step, make a choice and then unmake it and try other options until all o
 		{0, 0, 0, 1},
 	}
 
-12. [Generate Gray Code of Length n] (https://github.com/raiskumar/algo-ds/blob/master/recursion/grayCode.go)
+12. [Generate Gray Code of length n / Gray Codes of n-bit ](https://github.com/raiskumar/algo-ds/blob/master/recursion/grayCode.go)
 <br /> Given a number n, generate bit pattern from 0 to 2^n - 1 such that successive patterns differ by 1 bit
 <br /> Gray Code of length 2 = {00, 01, 11, 10} 
 <br /> Gray Code of length 3 = {000, 001, 011, 010, 110, 111, 101, 100}
