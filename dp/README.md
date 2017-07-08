@@ -39,4 +39,4 @@ Going bottom-up is a common strategy for dynamic programming problems, which are
 <br /> Sequence = 0, 1, 1, 2, 3, 5 
 
 ## Testing
- [recursion_test.go](dp_test.go) Dynamic Programming implementation of above problems in Golang
+ [dp_test.go](dp_test.go) Dynamic Programming implementation of above problems in Golang
