@@ -4,14 +4,17 @@ DP is a general technique for solving optimization, search, and computing problm
 ### Overalpping Subproblem
 A problem has overalpping subproblems if finding its solution involves solving the same subproblem multiple times. 
 
-As an example, let's look at fibonacci sequence. 
-Recursive implementation :
+As an example, let's look at fibonacci sequence recursive implementation:
+   ```
    febonacci(n) {
        if n == 0 || n ==1 {
            return n
        }
        febonacci(n-1) + febonacci(n-2)
    }
+   ```
+   
+   Tree Representation of the recrusion
 
                   febonacci(k)
                   /           \
@@ -20,7 +23,8 @@ Recursive implementation :
         febonacci(k-2)  
             ...                       
 
-    You can clearly note that, fibonacci(k-2) is getting evaluated more than once. 
+ 
+ You can clearly note that, fibonacci(k-2) is getting evaluated more than once. 
 
  ### To get rid of above problem, a technique known as Memoization is used
 Memoization ensures that a function doesn't run for the same inputs more than once by keeping a record of the results for given inputs (usually in a dictionary).
