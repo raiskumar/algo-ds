@@ -56,19 +56,25 @@ At each step, make a choice and then unmake it and try other options until all o
    <br/> 2 length subsets are {1,2}, {2,3}, & {1,3}
 
 11. [Rat in a Maze](https://github.com/raiskumar/algo-ds/blob/master/recursion/ratInAMaze.go)
-   <br/>  Given a maze, NxN matrix. A rat has to find a path from source to des­ti­na­tion. maze[0][0] (left top corner)is the source and maze[N-1][N-1](right bot­tom cor­ner) is des­ti­na­tion. There are few cells which are blocked, means rat can­not enter into those cells. 
-   <br/> maze = {
+   <br/>  Given a maze, NxN matrix. A rat has to find a path from source to des­ti­na­tion. maze[0][0] (left top corner)is the source and maze[N-1][N-1](right bot­tom cor­ner) is des­ti­na­tion. There are few cells which are blocked (i.e. with value 0), means rat can­not enter into those cells. Other shells with value 1 can be used by rat to reach destination. 
+   <br/> Input Maze = {
 		{1, 1, 1, 0},
 		{0, 1, 0, 0},
 		{0, 1, 1, 1},
 		{0, 0, 1, 1},
 	}
-    <br/> Solution = {
+    <br/> Solution Maze= {
 		{1, 1, 0, 0},
 		{0, 1, 0, 0},
 		{0, 1, 1, 1},
 		{0, 0, 0, 1},
 	}
+
+12. [Generate Gray Code of Length n] (https://github.com/raiskumar/algo-ds/blob/master/recursion/grayCode.go)
+<br /> Given a number n, generate bit pattern from 0 to 2^n - 1 such that successive patterns differ by 1 bit
+<br /> Gray Code of length 2 = {00, 01, 11, 10} 
+<br /> Gray Code of length 3 = {000, 001, 011, 010, 110, 111, 101, 100}
+
 
 ## Testing
  [recursion_test.go](recursion_test.go) Tests implementation of above problems in Golang

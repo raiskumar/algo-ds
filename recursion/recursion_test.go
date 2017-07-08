@@ -63,3 +63,8 @@ func TestRatInMaze(t *testing.T) {
 	solution := ratInMaze(maze)
 	fmt.Print("Solution Maze= %d", solution)
 }
+
+func TestGrayCode(t *testing.T) {
+	solution := grayCode(3)
+	fmt.Print("Solution = ", solution)
+}
