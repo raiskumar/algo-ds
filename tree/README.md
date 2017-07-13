@@ -14,6 +14,7 @@
 ## Binary Tree Problems
 
 1. [Find diameter](https://github.com/raiskumar/algo-ds/blob/master/tree/findDiameterOfTree.go)
+<br /> Diameter (aka width) of a tree is longest path or route between any two nodes in a tree. The path may or may not pass through the root. 
 2. [Check if given tree is balanced](https://github.com/raiskumar/algo-ds/blob/master/tree/isBalanced.go)
 3. [Perform level order traversal iteratevely](https://github.com/raiskumar/algo-ds/blob/master/tree/levelOrderTraversal.go)
 4. [Calculate maximum sum from root to any of the leaf node](https://github.com/raiskumar/algo-ds/blob/master/tree/maxSumRootToLeaf.go)
