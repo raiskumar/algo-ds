@@ -16,6 +16,9 @@
 1. [Find diameter](https://github.com/raiskumar/algo-ds/blob/master/tree/findDiameterOfTree.go)
 <br /> Diameter (aka width) of a tree is longest path or route between any two nodes in a tree. The path may or may not pass through the root. 
 2. [Check if given tree is balanced](https://github.com/raiskumar/algo-ds/blob/master/tree/isBalanced.go)
+<br /> Balanced Binary tree is a tree whose height is of order of log(number of elements in the tree).
+<br /> OR
+<br /> A binary tree in which the depth/height of the two subtrees of every node never differ by more than 1.
 3. [Perform level order traversal iteratevely](https://github.com/raiskumar/algo-ds/blob/master/tree/levelOrderTraversal.go)
 4. [Calculate maximum sum from root to any of the leaf node](https://github.com/raiskumar/algo-ds/blob/master/tree/maxSumRootToLeaf.go)
 5. [Get all cousions of a given node](https://github.com/raiskumar/algo-ds/blob/master/tree/printCousinsOfNode.go)
