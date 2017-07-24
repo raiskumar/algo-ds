@@ -3,11 +3,17 @@
 ## BST Problems
 
 1. [Find minimum/maximum value](https://github.com/raiskumar/algo-ds/blob/master/tree/bst.go)
+
 2. [Find 2nd largest value](https://github.com/raiskumar/algo-ds/blob/master/tree/secondLargestValue.go)
+
 3. [Find inorder successor of a node](https://github.com/raiskumar/algo-ds/blob/master/tree/inorderSuccessor.go)
+
 4. [Find kth largest element](https://github.com/raiskumar/algo-ds/blob/master/tree/findKthLargestElement.go)
+
 5. [Check if given binary tree is balanced](https://github.com/raiskumar/algo-ds/blob/master/tree/isBst.go)
+
 6. [Calculate sum of first (or last) K elements in inorder traversal](https://github.com/raiskumar/algo-ds/blob/master/tree/sumFirstKElements.go)
+
 7. [Find floor and ceil of a given value](https://github.com/raiskumar/algo-ds/blob/master/tree/floorAndCeil.go)
 
 
