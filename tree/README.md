@@ -15,6 +15,7 @@
 
 1. [Find diameter](https://github.com/raiskumar/algo-ds/blob/master/tree/findDiameterOfTree.go)
 <br /> Diameter (aka width) of a tree is longest path or route between any two nodes in a tree. The path may or may not pass through the root. 
+
 2. [Check if given tree is balanced](https://github.com/raiskumar/algo-ds/blob/master/tree/isBalanced.go)
 <br /> Balanced Binary tree is a tree whose height is of order of log(number of elements in the tree).
 <br /> OR
