@@ -38,8 +38,7 @@ Going bottom-up is a common strategy for dynamic programming problems, which are
 1. [Generate nth Fibonacci number](https://github.com/raiskumar/algo-ds/blob/master/dp/fibonacci.go)
 <br /> Sequence = 0, 1, 1, 2, 3, 5 
 
-2. [Find a subarray of a given array of integers whose sum is MAXIMUM]
-(https://github.com/raiskumar/algo-ds/blob/master/dp/maxSumSubarray.go)
+2. [Find a subarray of a given array of integers whose sum is MAXIMUM](https://github.com/raiskumar/algo-ds/blob/master/dp/maxSumSubarray.go)
 <br /> arr = {904, 40, 523, 12, -335, -385, -124, 481, 31}
 <br /> max subarray = arr[0,3] ; both index included
 <br /> Hint: Try with brute force approach first and then think of applying DP technique. 

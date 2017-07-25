@@ -8,7 +8,7 @@ package dp
 // Optimized at the cost of O(N) addition space overhead
 // Array stored sum till ith index; i.e. Sum[i] = Sum of all elements until index i
 // Sum[i,j] = Sum[j] - Sum[i-1]
-func maxSubArray(arr []int) (start, end, result int) {
+func maxSubArray(arr []int) (result int) {
 	len := len(arr)
 	var sum []int
 
@@ -31,13 +31,39 @@ func maxSubArray(arr []int) (start, end, result int) {
 			// Update result variables
 			if result < sumjk {
 				result = sumjk
-				start = j
-				end = k
 			}
 		}
 	}
-	return start, end, result
+	return result
 }
 
 // (3) DP
-//
+// Let say MS(i) is maximum sum ending at index i
+// To calcualte for sum for i
+// 1) Either add the index to the solution found so far i.e. i-1
+// 2) Or, start a new sum from index i
+// i.e. MS(i) = Max(MS(i-1)+Arr[i], Arr[i])
+
+func maxSubArrayDp(arr []int) (result int) {
+	len := len(arr)
+	var sum []int
+
+	sum = append(sum, arr[0])
+
+	for i := 1; i < len; i++ {
+		if sum[i-1]+arr[i] > arr[i] {
+			sum = append(sum, sum[i-1]+arr[i])
+		} else {
+			sum = append(sum, arr[i])
+		}
+	}
+
+	result = sum[0]
+
+	for i := 1; i < len; i++ {
+		if result < sum[i] {
+			result = sum[i]
+		}
+	}
+	return result
+}
