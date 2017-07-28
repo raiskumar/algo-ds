@@ -54,3 +54,25 @@ func TestFloorAndCeil(t *testing.T) {
 	floor, ceil := getFloorAndCeil(root, 110)
 	fmt.Println(floor, " <- floor ceil -> ", ceil)
 }
+
+func TestCorrectTwoSwappedNodesOfBst(t *testing.T) {
+	var elements = []int{100, 50, 200}
+	root := createTree(elements)
+
+	first := findNode(root, 50)
+	second := findNode(root, 200)
+
+	first.val, second.val = second.val, first.val
+	inorderTraversal(root)
+
+	fmt.Println("now nodes are corrupted")
+	var one, two *Node
+	fmt.Println(one)
+	fmt.Println(two)
+	one = &Node{5, nil, nil}
+	two = &Node{5, nil, nil}
+	fmt.Println("one ", one)
+	fmt.Println(two == nil)
+
+	correctSwappedNodes(root)
+}

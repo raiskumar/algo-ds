@@ -36,12 +36,21 @@ Going bottom-up is a common strategy for dynamic programming problems, which are
 
 ## Problems: 
 1. [Generate nth Fibonacci number](https://github.com/raiskumar/algo-ds/blob/master/dp/fibonacci.go)
-<br /> Sequence = 0, 1, 1, 2, 3, 5 
+<br /> f(n) = f(n-1) + f(n-2)
+<br /> By definition first two numbers are 0 and 1
+<br /> The sequence is 0, 1, 1, 2, 3 ...
 
 2. [Find a subarray of a given array of integers whose sum is MAXIMUM](https://github.com/raiskumar/algo-ds/blob/master/dp/maxSumSubarray.go)
 <br /> arr = {904, 40, 523, 12, -335, -385, -124, 481, 31}
 <br /> max subarray = arr[0,3] ; both index included
 <br /> Hint: Try with brute force approach first and then think of applying DP technique. 
+
+3. [COUNT the number of ways to reach a given score](https://github.com/raiskumar/algo-ds/blob/master/dp/countScoreCombinations.go)
+<br /> All the possible points/runs a player can score are given and also given the total score. Find TOTAL number of ways to reach that given score. 
+<br /> Let's say, possible points = {2,3,7}; & total score = 9
+<br /> Possible combinations are : {2,2,2,3}, {2,7}, {3,3,3}
+<br /> COUNT of combinations = 3
+
 
 ## Testing
  [dp_test.go](dp_test.go) Dynamic Programming implementation of above problems in Golang

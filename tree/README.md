@@ -3,6 +3,7 @@
 ## BST Problems
 
 1. [Find minimum/maximum value](https://github.com/raiskumar/algo-ds/blob/master/tree/bst.go)
+ <br /> Given a Binary search tree; find the minimum value. 
 
 2. [Find 2nd largest value](https://github.com/raiskumar/algo-ds/blob/master/tree/secondLargestValue.go)
 
