@@ -39,11 +39,43 @@ func getMaxProductsOfAllIntsExceptOne(arr []int) int {
 
 	maxProduct := 1
 	tmpProduct := 1
-	// Find the product at an index by multiplying before and after values
+	// productsOfAllIntsExceptAtIndex = multiplying before and after values
 	for i := 0; i < len(arr); i++ {
 		tmpProduct = productOfAllIntsBeforeIndex[i] * productOfAllIntegersAfterIndex[i]
 		if tmpProduct > maxProduct {
 			maxProduct = tmpProduct
+		}
+	}
+	return maxProduct
+}
+
+// Above approach uses two temporary arrays; can this be further optized ?
+// Can we solve problem with only one temporary array
+// The same array can be first used to calcualte product before index and then product after index
+// So finally array will have product of all numbers except at the index
+func getMaxProductsOfAllIntsExceptOneOptimized(arr []int) int {
+	if len(arr) < 2 {
+		return 0 // invalid case
+	}
+
+	var productOfAllExceptIndex []int
+
+	productSoFar := 1
+	for i := 0; i < len(arr); i++ {
+		productOfAllExceptIndex = append(productOfAllExceptIndex, productSoFar)
+		productSoFar *= arr[i]
+	}
+
+	productSoFar = 1 // re-initialize
+	for i := len(arr) - 1; i >= 0; i-- {
+		productOfAllExceptIndex[i] *= productSoFar
+		productSoFar *= arr[i]
+	}
+
+	maxProduct := 1
+	for i := 0; i < len(arr); i++ {
+		if productOfAllExceptIndex[i] > maxProduct {
+			maxProduct = productOfAllExceptIndex[i]
 		}
 	}
 	return maxProduct
