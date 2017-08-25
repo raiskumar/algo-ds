@@ -10,4 +10,4 @@
    <br/> Longest contiguous increasing subarray would be {3,5,13}  starts at index 2 and ends at index 4
 
 ## Testing
- [array_test.go](https://github.com/raiskumar/algo-ds/blob/master/array-strings/arrays_test.go) Tests Cases of above problems
+ [array_test.go](https://github.com/raiskumar/algo-ds/blob/master/array-strings/array_test.go) Tests Cases of above problems
