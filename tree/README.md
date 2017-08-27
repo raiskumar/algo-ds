@@ -1,4 +1,6 @@
-## Binary Tree and Binary Search Tree Problems
+## Tree Problems
+From programming point of view binary trees are important. I have divided problems into BST related problem and then general binary tree related problems. 
+
 
 ## BST Problems
 Binary Search Tree is a binary tree in which nodes have to respect the *BST property* - the key stored at a node is greater than or equal to the keys stored at the nodes of its left subtree and less than or equal to the keys stored in the nodes of its right subtree. 
@@ -19,6 +21,7 @@ Binary Search Tree is a binary tree in which nodes have to respect the *BST prop
 6. [Calculate sum of first (or last) K elements in inorder traversal](https://github.com/raiskumar/algo-ds/blob/master/tree/sumFirstKElements.go)
 
 7. [Find floor and ceil of a given value](https://github.com/raiskumar/algo-ds/blob/master/tree/floorAndCeil.go)
+
 
 
 
