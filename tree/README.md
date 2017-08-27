@@ -1,6 +1,7 @@
 ## Binary Tree and Binary Search Tree Problems
 
 ## BST Problems
+![BST](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/500px-Binary_search_tree.svg.png)
 
 1. [Find minimum/maximum value](https://github.com/raiskumar/algo-ds/blob/master/tree/bst.go)
  <br /> Given a Binary search tree; find the minimum value. 
