@@ -21,8 +21,10 @@ Binary Search Tree is a binary tree in which nodes have to respect the *BST prop
 7. [Find floor and ceil of a given value](https://github.com/raiskumar/algo-ds/blob/master/tree/floorAndCeil.go)
 
 
+
 ## Binary Tree Problems
 Binary tree can have at most 2 children nodes. 
+
 ![Binary Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/500px-Binary_tree.svg.png)
 
 
