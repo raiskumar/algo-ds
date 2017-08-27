@@ -22,6 +22,9 @@ Binary Search Tree is a binary tree in which nodes have to respect the *BST prop
 
 
 ## Binary Tree Problems
+Binary tree can have at most 2 children nodes. 
+![Binary Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/500px-Binary_tree.svg.png)
+
 
 1. [Find diameter](https://github.com/raiskumar/algo-ds/blob/master/tree/findDiameterOfTree.go)
 <br /> Diameter (aka width) of a tree is longest path or route between any two nodes in a tree. The path may or may not pass through the root. 
