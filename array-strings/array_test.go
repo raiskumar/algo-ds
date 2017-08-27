@@ -23,3 +23,13 @@ func TestLongestContiguousIncreasingSubarray(t *testing.T) {
 	index, size = longestContiguousIncreasingSubarray(arr2)
 	fmt.Println("(i,j)=", index, index+size)
 }
+
+func TestRotate(t *testing.T) {
+	input := []int{1, 2, 3, 4, 5, 6, 7}
+	rotate(input, 3)
+	fmt.Println("%v", input)
+
+	input2 := []int{1, 2, 3, 4, 5, 6, 7}
+	rotateOptimzed(input2, 3)
+	fmt.Println("%v", input2)
+}
