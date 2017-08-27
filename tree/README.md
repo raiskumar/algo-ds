@@ -1,6 +1,8 @@
 ## Binary Tree and Binary Search Tree Problems
 
 ## BST Problems
+Binary Search Tree is a binary tree in which nodes have to respect the *BST property* - the key stored at a node is greater than or equal to the keys stored at the nodes of its left subtree and less than or equal to the keys stored in the nodes of its right subtree. 
+
 ![BST](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/500px-Binary_search_tree.svg.png)
 
 1. [Find minimum/maximum value](https://github.com/raiskumar/algo-ds/blob/master/tree/bst.go)
