@@ -37,13 +37,12 @@ func rotateOptimzed(input []int, k int) {
 
 }
 
-// reverse an array in the given indexes
+// reverse an array; left and right are array indexes of the array in which reversal needs to be performed!
 func reverse(input []int, left, right int) {
 	tmp := 0
 	for left < right {
 		tmp = input[left]
-		input[left] = input[right]
-		input[right] = tmp
+		input[left], input[right] = input[right], tmp
 		left++
 		right--
 	}

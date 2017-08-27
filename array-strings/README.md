@@ -10,7 +10,8 @@
    <br/> Longest contiguous increasing subarray would be {3,5,13}  starts at index 2 and ends at index 4
 
 2. [Rotate an array in-place by k places](https://github.com/raiskumar/algo-ds/blob/master/array-strings/rotateArray.go)
-   <br/>arr {1,2,3,4,5,6,7} , k=3; Result = {5, 6, 7, 1, 2, 3, 4}
+   <br/>arr {1,2,3,4,5,6,7} , k=3;
+   <br /> Result = {5, 6, 7, 1, 2, 3, 4}
 
 
 ## Testing
